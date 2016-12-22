@@ -1,0 +1,23 @@
+# Python compiled files
+__pycache__/
+
+# Python pyvenv generated folders
+virtual_env/
+
+# IDE files
+.idea/
+*.swp
+
+# SQLite3 database
+*.sqlite
+
+# pytest cache files
+.cache
+
+# Environment variables
+.env
+
+# files Python
+*.pyc
+
+.DS_Store
