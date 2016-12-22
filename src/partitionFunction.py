@@ -11,25 +11,27 @@ class PartitionFunction:
 
     @staticmethod
     def value(original):
-        count = 0
+        PartitionFunction.count = 0
         for i in my_range(original, 1, -1):
-            PartitionFunction.extP(original, i)
-        return count
+            PartitionFunction.extract(original, i)
+        return PartitionFunction.count
 
-    def extP(original, request):
+    @staticmethod
+    def extract(original, request):
         diferente = original - request
         if diferente < 0:
-            count = -1
+            PartitionFunction.count = -1
         else:
             if diferente == 0 or diferente == 1:
                 PartitionFunction.count += 1
             else:
-                PartitionFunction.xP(diferente, request)
+                PartitionFunction.next(diferente, request)
 
-    def xP(original, request):
+    @staticmethod
+    def next(original, request):
         for i in my_range(original, 1, -1):
             if i <= request:
-                PartitionFunction.extP(original, i)
+                PartitionFunction.extract(original, i)
 
 
 

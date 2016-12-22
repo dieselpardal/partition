@@ -1,7 +1,7 @@
 
-#Funcao Partição
+#Função Partição
 ---------------
-Em teoria dos números, partição de um inteiro positivo n é uma forma de decomposição de n como soma de interos positivos. Duas somas são consideradas iguais se e somente se possuem o mesmos numero de parcelas e as mesmas parcelas, mesmo que em ordem diferente.
+Em teoria dos números, partição de um inteiro positivo n é uma forma de decomposição de n como soma de inteiros positivos. Duas somas são consideradas iguais se e somente se possuem o mesmos numero de parcelas e as mesmas parcelas, mesmo que em ordem diferente.
 Fonte: wikipedia
 
 Exemplo:
