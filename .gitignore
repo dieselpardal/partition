@@ -3,7 +3,6 @@ __pycache__/
 
 # IDE files
 .idea/
-*.swp
 
 # files Python
 *.pyc
